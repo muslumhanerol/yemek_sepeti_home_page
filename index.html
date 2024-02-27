@@ -23,24 +23,28 @@
                 <input type="text" name="pswd" placeholder="Şifre" required="">
                 <button>Üye Ol</button>
             </form>
-        </div>        
-        <div class="form-container sign-in-conatiner">
-            <h1>Giriş Yap</h1>
-            <div class="social-conatiner">
-                <a href="#" class="social"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                <a href="#" class="social"><i class="fab fa-linkedin"></i></a>
-            </div>
-            <span>Ya da Hesabını Kullan </span>
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Şifre">
-            <a href="">Şifreyi Unuttum</a>
-            <button>Giriş Yap</button>
-        </div>        
-        <div class="overlay-conatiner">
+        </div>
+        <div class="sign-in">
+            <form action="#">
+                <h1>Giriş Yap</h1>
+                <div class="social-conatiner">
+                    <a href="#" class="social"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p>Ya da Hesabınla Giriş Yap </p>
+                <input type="text" name="txt" placeholder="İsim" required="">
+                <input type="text" name="email" placeholder="Email" required="">
+                <input type="text" name="pswd" placeholder="Şifre" required="">
+                <a href="#">Şifremi Unuttum.</a>
+                <button>Giriş Yap</button>
+            </form>
+        </div>               
+         
+        <div class="overlay-container">
             <div class="overlay">
-                <div class="overlay-panel overlay-left">
-                    <h1>Tekrar Hoş Geldiniz</h1>
+                <div class="overlay-left">
+                    <h1>Tekrar Hoş Geldiniz!</h1>
                     <P>Hesabınıza erişebilmek için lütfen giriş yapın.</P>
                     <button class="ghost" id="signIn">Giriş Yap</button>
                 </div>
