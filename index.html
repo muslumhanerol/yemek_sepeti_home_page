@@ -8,8 +8,8 @@
     <title>Login ve Register Sayfası</title>
 </head>
 <body>
-    <div class="container" id="conatiner">        
-        <div class="form-conatiner register-container">
+    <div class="container" id="main">        
+        <div class="sign-up">
             <form action="#">
                 <h1>Hesap Oluştur</h1>
                 <div class="social-conatiner">
@@ -17,13 +17,10 @@
                     <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
                     <a href="#" class="social"><i class="fab fa-linkedin"></i></a>
                 </div>
-                <span>Ya da Email İle Üye Ol </span>
-                <input type="text" placeholder="İsim">
-                <input type="text" placeholder="Soy İsim">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Emaili Tekrar Giriniz">
-                <input type="text" placeholder="Şifre">
-                <input type="text" placeholder="Şifreyi Tekrar Giriniz">
+                <p>Ya da Email İle Üye Ol </p>
+                <input type="text" name="txt" placeholder="İsim" required="">
+                <input type="text" name="email" placeholder="Email" required="">
+                <input type="text" name="pswd" placeholder="Şifre" required="">
                 <button>Üye Ol</button>
             </form>
         </div>        
