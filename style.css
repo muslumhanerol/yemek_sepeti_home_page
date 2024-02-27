@@ -97,8 +97,7 @@ button.ghost{
 .form-conatiner{
     position: absolute;
     top: 0;
-    height: 100%;
-    transform:all .6s ease-in-out;
+    he
 }
 .sign-in-conatiner{
     left: 0;
