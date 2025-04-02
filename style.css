@@ -53,3 +53,34 @@ body {
 .btn-outline:hover {
     background-color: #f8d7af;
 }
+
+.btn-fill {
+    padding: 8px 14px;
+    border-radius: 8px;
+    background-color: #FA0050;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn-fill:hover {
+    border: 1px solid #FA0050;
+    border-radius: 8px;
+    background-color: white;
+    color: #FA0050;
+}
+
+.lang-selection {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    color: #333;
+}
+
+.lang-selection .fa-chevron-down {
+    color: #FA0050;
+
+}
