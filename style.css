@@ -25,3 +25,31 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FA0050;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-outline {
+    padding: 8px 14px;
+    border: 1px solid #FA0050;
+    border-radius: 8px;
+    color: #FA0050;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn-outline:hover {
+    background-color: #f8d7af;
+}
