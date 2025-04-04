@@ -116,9 +116,16 @@ body {
     grid-column: 1 / 8;
     /* 1 den 8 nci sütüna kadar alanı kapsa. */
     margin: auto;
+    /* Dikey hizalama */
 }
 
 .search-bar-img {
     grid-column: 8 / 12;
 
+}
+
+.search-bar-img img {
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
