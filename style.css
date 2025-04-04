@@ -7,6 +7,7 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+/* header start */
 .navbar {
     position: sticky;
     top: 0;
@@ -84,3 +85,18 @@ body {
     color: #FA0050;
 
 }
+
+.basket-icon {
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+}
+
+.basket-icon:hover {
+    color: #FA0050;
+}
+
+/* header end */
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
