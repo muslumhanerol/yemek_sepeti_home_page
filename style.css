@@ -100,3 +100,25 @@ body {
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.sec-search-bar {
+    display: grid;
+    grid-template-columns: repeat(12,
+            1fr);
+    /* Sütünu 12 eşit parçaya böl her parça 1fr olsun. 12 metre old. düşün 1 er metre ayrıldı. */
+    grid-template-rows: auto;
+    max-width: 1440px;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.search-bar-content {
+    grid-column: 1 / 8;
+    /* 1 den 8 nci sütüna kadar alanı kapsa. */
+    margin: auto;
+}
+
+.search-bar-img {
+    grid-column: 8 / 12;
+
+}
