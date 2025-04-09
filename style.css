@@ -129,3 +129,36 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+.search-bar-content h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #222;
+}
+
+.search-bar-search input {
+    grid-column: 1 / 11;
+    padding: 10px 15px;
+    position: relative;
+    border: solid #f9f9f9;
+    border-radius: 4px;
+}
+
+.search-bar-search {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+}
+
+.search-bar-search a {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+    margin-left: 10px;
+    background-color: #FA0050;
+    border-radius: 8px;
+}
